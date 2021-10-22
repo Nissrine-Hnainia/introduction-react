@@ -13,12 +13,10 @@
   justify-content: space-around;
   margin-top: 5%;
 }
-
 .card{
   width: 40%;
   margin: 150px auto;
 }
-
 .cards{
   display: flex;
   justify-content: space-around;
@@ -26,18 +24,11 @@
   width: 80vw;
   margin: auto;
 }
-
 .contact {
   width: 80vw;
   margin: auto;
-  /* background-color: #dbd5d5; */
   border: 1px solid #dbd5d5;
   padding: 20px;
   margin-bottom: 50px;
   border-radius: 5px;
 }
-/* @media (max-width: 576px) {
-  .App{
-    background-color: green;
-  }
-} */

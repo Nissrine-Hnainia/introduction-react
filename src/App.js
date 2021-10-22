@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header';
 import MyCard from './components/Card';
 import Contact from './components/Contact';
+import HCard  from './components/HCard';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <MyCard />
       <MyCard />
       </div> 
+      <HCard />
       <Contact />
     </div>
   );
