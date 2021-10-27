@@ -1,34 +1,5 @@
-
-.imgInSrc{
-  width: 40%;
-  height: auto;
-}
-.red{
-  padding-top: 50px;
-  color: red;
-  text-align: center;
-}
-.imgs{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 5%;
-}
-.card{
-  width: 40%;
-  margin: 150px auto;
-}
-.cards{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: 80vw;
-  margin: auto;
-}
-.contact {
-  width: 80vw;
-  margin: auto;
-  border: 1px solid #dbd5d5;
-  padding: 20px;
-  margin-bottom: 50px;
-  border-radius: 5px;
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }

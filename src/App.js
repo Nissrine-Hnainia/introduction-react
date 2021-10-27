@@ -1,23 +1,12 @@
 import './App.css';
-import Header from './components/Header';
-import MyCard from './components/Card';
-import Contact from './components/Contact';
-import HCard  from './components/HCard';
+import Header from './Components/Header';
+import Sidebar from './Components/Sidebar';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <div className="cards">
-      <MyCard /> 
-      <MyCard /> 
-      <MyCard /> 
-      <MyCard /> 
-      <MyCard />
-      <MyCard />
-      </div> 
-      <HCard />
-      <Contact />
+      <Sidebar />
     </div>
   );
 }
